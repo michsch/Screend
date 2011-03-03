@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/**
+ * Screend - Template Bright
+ * 
+ * @file				bright.css
+ * @author			Michael Schulze <info@michael66.de>
+ * @version			0.0.1
+ * @license			Creative Commons Attribution 3.0 <http://creativecommons.org/licenses/by/3.0/>
+ * 
+ * Copyright (c) 2010 Michael Schulze <http://www.elsigno.de>
+ * 
+ * https://github.com/michsch/Screend
+ * 
+ */
+
+@import url(../../../core/c/base.css);
+@import url(../../../core/c/print.css);
+@import url(../f/fonts.css);
+
+@media screen, projection {
+	body {
+		margin: 30px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+	}
+	
+	article div.wrap div.info {
+		background-color: #333;
+		background-color: rgba(250,250,250,0.9);
+							filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#99efefef',EndColorStr='#99efefef'); /* IE6,IE7 */
+					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#99efefef',EndColorStr='#99efefef')"; /* IE8 */
+		border: 1px solid #343434;
+		-moz-box-shadow: 0 0 8px rgba(0,0,0,0.6);
+		-webkit-box-shadow: 0 0 8px rgba(0,0,0,0.6);
+		box-shadow: 0 0 8px rgba(0,0,0,0.6);
+		background: #ccc url(../p/rauschen_HG.gif) repeat 0 0;
+	}
+	article div.fixed div.info {
+		border-top: 0;
+		-moz-box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+		-webkit-box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+		box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+	}
+	
+	section#screendesign-overlay {
+		color: #343434;
+		border-bottom: 1px solid #343434;
+		text-shadow: 0 1px 1px #fff;
+		z-index: 100;
+		background: #ccc url(../p/rauschen_HG.gif) repeat left top;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/* Content */
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family:"Times New Roman", Times, serif;
+    font-weight:normal;
+    margin:0 0 0.25em 0;
+  }
+	h1, h2, h3 {
+		font-family: 'TeXGyreHerosCn', 'CartoGothicStd', "Lucida Grande", Helvetica, Arial, sans-serif;
+		font-weight: bold;
+		text-shadow: 0 1px 2px #fff;
+	}
+
+  h1 { font-size:250%; }                       /* 30px */
+  h2 { font-size:200%; }                       /* 24px */
+  h3 { font-size:150%; }                       /* 18px */
+  h4 { font-size:133.33%; }                    /* 16px */
+  h5 { font-size:116.67%; }                    /* 14px */
+  h6 { font-size:116.67%; }                    /* 14px */
+
+	.info h1 {
+		border-bottom: 1px solid #ccc;
+		-moz-box-shadow: 0 1px 0 #fff;
+		-webkit-box-shadow: 0 1px 0 #fff;
+		box-shadow: 0 1px 0 #fff;
+	}
+
+	p, ul, ol {
+		font-family: 'CartoGothicStd', "Lucida Grande", Helvetica, Arial, sans-serif;
+		font-size: 116.67%;
+		line-height: 1.5
+	}
+	p.info { font-family: Arial, Helvetica, sans-serif; font-size: 116.67%; }
+	p.small { font-size: 100%; }
+
+	strong,b { font-weight:bold; }
+  em,i { font-style:italic; }
+	
+	a { color: #3A99BF; text-decoration: none; }
+	
+	hr { height: 1px; border: 0; border-bottom: 1px solid #ccc; -moz-box-shadow: 0 1px 0 #fff; -webkit-box-shadow: 0 1px 0 #fff; box-shadow: 0 1px 0 #fff; }
+}

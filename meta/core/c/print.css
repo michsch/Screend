@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/**
+ * Screend - Print Layout
+ * 
+ * @file				print.css
+ * @author			Michael Schulze <info@michael66.de>
+ * @version			0.0.1
+ * @license			Creative Commons Attribution 3.0 <http://creativecommons.org/licenses/by/3.0/>
+ * 
+ * Copyright (c) 2010 Michael Schulze <http://www.elsigno.de>
+ * 
+ * https://github.com/michsch/Screend
+ * 
+ */
+
+@media print {
+	* {
+		background: transparent !important;
+		color: #444 !important;
+		text-shadow: none;
+	}
+
+	body { font-size: 6pt }
+
+	a, a:visited {
+		color: #444 !important;
+		text-decoration: underline;
+	}
+	a:after { content: " (" attr(href) ")" }
+	abbr:after { content: " (" attr(title) ")" }
+	section { display: none; }
+
+	article,
+	article.visible {
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 0 !important;
+		border: none !important;
+		border-bottom: 1px dotted #444 !important;
+		page-break-inside: avoid;
+		background-color: transparent;
+		display: block !important;
+		min-height: inherit !important;
+		-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+		-moz-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+		box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	}
+	div.info { display: block !important; }
+	
+	img {
+		width: 80%;
+		page-break-inside: avoid;
+		float:none !important;
+	}
+	
+	@page { margin: 0.5cm; }
+	
+	p, h2, h3 {
+		orphans: 3;
+		widows: 3;
+	}
+	
+	h2, h3 { page-break-after: avoid; }
+}

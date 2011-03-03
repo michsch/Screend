@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'TeXGyreHeros';
+	src: url('TeX-Gyre-Heros/texgyreheros-regular-webfont.eot');
+	src: local('☺'), url('TeX-Gyre-Heros/texgyreheros-regular-webfont.woff') format('woff'), url('TeX-Gyre-Heros/texgyreheros-regular-webfont.ttf') format('truetype'), url('TeX-Gyre-Heros/texgyreheros-regular-webfont.svg#webfontW0CrYjEp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeXGyreHeros';
+	src: url('TeX-Gyre-Heros/texgyreheros-italic-webfont.eot');
+	src: local('☺'), url('TeX-Gyre-Heros/texgyreheros-italic-webfont.woff') format('woff'), url('TeX-Gyre-Heros/texgyreheros-italic-webfont.ttf') format('truetype'), url('TeX-Gyre-Heros/texgyreheros-italic-webfont.svg#webfont9QNr0YSz') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeXGyreHeros';
+	src: url('TeX-Gyre-Heros/texgyreheros-bold-webfont.eot');
+	src: local('☺'), url('TeX-Gyre-Heros/texgyreheros-bold-webfont.woff') format('woff'), url('TeX-Gyre-Heros/texgyreheros-bold-webfont.ttf') format('truetype'), url('TeX-Gyre-Heros/texgyreheros-bold-webfont.svg#webfontzVhcNlgC') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeXGyreHeros';
+	src: url('TeX-Gyre-Heros/texgyreheros-bolditalic-webfont.eot');
+	src: local('☺'), url('TeX-Gyre-Heros/texgyreheros-bolditalic-webfont.woff') format('woff'), url('TeX-Gyre-Heros/texgyreheros-bolditalic-webfont.ttf') format('truetype'), url('TeX-Gyre-Heros/texgyreheros-bolditalic-webfont.svg#webfontE3N1zaPa') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeXGyreHerosCn';
+	src: url('TeX-Gyre-Heros/texgyreheroscn-regular-webfont.eot');
+	src: local('☺'), url('TeX-Gyre-Heros/texgyreheroscn-regular-webfont.woff') format('woff'), url('TeX-Gyre-Heros/texgyreheroscn-regular-webfont.ttf') format('truetype'), url('TeX-Gyre-Heros/texgyreheroscn-regular-webfont.svg#webfontg7OBUoBS') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeXGyreHerosCn';
+	src: url('TeX-Gyre-Heros/texgyreheroscn-italic-webfont.eot');
+	src: local('☺'), url('TeX-Gyre-Heros/texgyreheroscn-italic-webfont.woff') format('woff'), url('TeX-Gyre-Heros/texgyreheroscn-italic-webfont.ttf') format('truetype'), url('TeX-Gyre-Heros/texgyreheroscn-italic-webfont.svg#webfontPMEwjzpu') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'TeXGyreHerosCn';
+	src: url('TeX-Gyre-Heros/texgyreheroscn-bold-webfont.eot');
+	src: local('☺'), url('TeX-Gyre-Heros/texgyreheroscn-bold-webfont.woff') format('woff'), url('TeX-Gyre-Heros/texgyreheroscn-bold-webfont.ttf') format('truetype'), url('TeX-Gyre-Heros/texgyreheroscn-bold-webfont.svg#webfont0nPtoz66') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TeXGyreHerosCn';
+	src: url('TeX-Gyre-Heros/texgyreheroscn-bolditalic-webfont.eot');
+	src: local('☺'), url('TeX-Gyre-Heros/texgyreheroscn-bolditalic-webfont.woff') format('woff'), url('TeX-Gyre-Heros/texgyreheroscn-bolditalic-webfont.ttf') format('truetype'), url('TeX-Gyre-Heros/texgyreheroscn-bolditalic-webfont.svg#webfontdlFbc3Qd') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+/**
+ * Font - Carto Gothic Std
+ * similar to Myriad Pro
+ * 
+ */
+@font-face {
+	font-family: 'CartoGothicStd';
+	src: url('CartoGothic/CartoGothicStd-Book-webfont.eot');
+	src: local('☺'), url('CartoGothic/CartoGothicStd-Book-webfont.woff') format('woff'), url('CartoGothic/CartoGothicStd-Book-webfont.ttf') format('truetype'), url('CartoGothic/CartoGothicStd-Book-webfont.svg#webfontnQtAzMaZ') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CartoGothicStd';
+	src: url('CartoGothic/CartoGothicStd-Italic-webfont.eot');
+	src: local('☺'), url('CartoGothic/CartoGothicStd-Italic-webfont.woff') format('woff'), url('CartoGothic/CartoGothicStd-Italic-webfont.ttf') format('truetype'), url('CartoGothic/CartoGothicStd-Italic-webfont.svg#webfontRTlt0Y4h') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'CartoGothicStd';
+	src: url('CartoGothic/CartoGothicStd-Bold-webfont.eot');
+	src: local('☺'), url('CartoGothic/CartoGothicStd-Bold-webfont.woff') format('woff'), url('CartoGothic/CartoGothicStd-Bold-webfont.ttf') format('truetype'), url('CartoGothic/CartoGothicStd-Bold-webfont.svg#webfontMybwtPYN') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CartoGothicStd';
+	src: url('CartoGothic/CartoGothicStd-BoldItalic-webfont.eot');
+	src: local('☺'), url('CartoGothic/CartoGothicStd-BoldItalic-webfont.woff') format('woff'), url('CartoGothic/CartoGothicStd-BoldItalic-webfont.ttf') format('truetype'), url('CartoGothic/CartoGothicStd-BoldItalic-webfont.svg#webfont5BUdb3eq') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}

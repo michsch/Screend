@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset=utf-8 />
+		<meta name="robots" content="noindex,nofollow" />
+
+		<title>Screendesign villando.com</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+		<link rel="apple-touch-icon" href="../../meta/apple-touch-icon.png" />
+		<link rel="shortcut icon" href="../../meta/favicon.ico" />
+		
+		<link rel="stylesheet" href="../../meta/themes/bright/c/bright.css" />
+
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<script>
+			// hide page during initialization
+			document.write('<style type="text/css"> body {display:none}</style>');
+		</script>
+
+	</head>
+	<body>
+		
+		<article>
+			<h1>elsigno.de - Startseite</h1>
+			<p>Hier können Notizen zum jeweiligen Design eingetragen werden:</p>
+			<div class="subcolumns">
+				<div class="c50l">
+					<div class="subcl">
+						<h2>Startseite</h2>
+						<ul>
+							<li>Startseite von elsigno.de mit Teaser und letzten Projekten</li>
+							<li>Sidebar mit Tab-Navigation und Social Icons</li>
+						</ul>
+					</div>
+				</div>
+				<div class="c50r">
+					<div class="subcr">
+						<h2>Infos</h2>
+						<p>
+							Sind in einem solchen Bereich zu viele Informationen enthalten, welche nicht alle
+							angezeigt werden können, so wird der Container nicht mehr fixiert und ist scrollbar.
+						</p>
+					</div>
+				</div>
+			</div>
+		</article>
+		
+		<article>
+			<h1>lasite.de - Startseite</h1>
+			<p>Hier könnten weitere Notizen und Hinweise stehen ...</p>
+		</article>
+		
+		<article>
+			<h1>immer-quer-durch.de - Startseite</h1>
+			<p>Hier könnten weitere Notizen und Hinweise stehen ...</p>
+		</article>
+		
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+		<script>!window.jQuery && document.write('<script src="../../screens/core/jquery-1.4.2.min.js"><\/script>')</script>
+		<script src="../../meta/core/js/jquery.screendesign-0.0.1.js"></script>
+		<script>
+			jQuery.noConflict();
+			jQuery(document).ready(function($){
+				$().screendesign({
+					fade: 'smooth',
+					cycling: 1,
+					fixedInfo: 1,
+					textCopyright: '&copy 2010 Michael Schulze'
+				});
+				$('body').fadeIn(300);
+			});
+		</script>
+	</body>
+</html>
